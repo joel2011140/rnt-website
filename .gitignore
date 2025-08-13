@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Webpack
+webpack.config.js.map
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.js.map

@@ -1,8 +1,7 @@
 export default function App() {
   return (
-    <div className="app">
-      <h1>Welcome to the App</h1>
-      {/* Other components can be added here */}
+    <div className="w-full bg-chumbo-light h-screen flex items-center justify-center">
+      <p className="text-heading-36 ">tes</p>
     </div>
   );
 }

@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  font-size: 0.875rem !important;
+
+  --spacing-8: 2rem;
+}

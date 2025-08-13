@@ -7,11 +7,14 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "bundler", // Required for allowImportingTsExtensions
+    "moduleResolution": "node", // Changed from "bundler" to "node" for ts-loader compatibility
     "baseUrl": "./src",
     "outDir": "./dist",
     "allowImportingTsExtensions": true, // Allows .tsx imports
-    "noEmit": true
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false, // Ensures JS output
+    "isolatedModules": false // Disable to allow ts-loader to handle module emission
   },
   "include": ["src"],
   "exclude": ["node_modules"]

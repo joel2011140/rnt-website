@@ -17,7 +17,12 @@ module.exports = {
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
-        use: 'ts-loader',
+        use: {
+          loader: 'ts-loader',
+          options: {
+            transpileOnly: true, // Speeds up compilation, delegates type checking to tsc
+          },
+        },
       },
       {
         test: /\.css$/,

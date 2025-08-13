@@ -16,7 +16,8 @@
     "@tanstack/react-router": "1.131.8",
     "@tanstack/react-router-devtools": "1.131.8",
     "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react-dom": "19.1.1",
+    "tailwindcss": "3.4.3"
   },
   "devDependencies": {
     "@tanstack/router-plugin": "1.131.8",
@@ -29,7 +30,6 @@
     "postcss": "8.5.6",
     "postcss-loader": "8.1.1",
     "style-loader": "4.0.0",
-    "tailwindcss": "4.1.11",
     "ts-loader": "9.5.2",
     "typescript": "5.9.2",
     "webpack": "5.101.1",

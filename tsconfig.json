@@ -9,6 +9,14 @@
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node", // Changed from "bundler" to "node" for ts-loader compatibility
     "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
+      "@utils/*": ["utils/*"],
+      "@locales/*": ["locales/*"],
+      "@context/*": ["context/*"],
+      "@styles/*": ["styles/*"]
+    },
     "outDir": "./dist",
     "allowImportingTsExtensions": true, // Allows .tsx imports
     "declaration": true,

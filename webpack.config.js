@@ -11,6 +11,16 @@ module.exports = {
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
+    alias: {
+      '@components': path.resolve(__dirname, 'src/components/'),
+      '@utils': path.resolve(__dirname, 'src/lib/utils/'),
+      '@ui': path.resolve(__dirname, 'src/components/ui/'),
+      '@lib': path.resolve(__dirname, 'src/lib/'),
+      '@hooks': path.resolve(__dirname, 'src/hooks/'),
+      '@locales': path.resolve(__dirname, 'src/locales/'),
+      '@context': path.resolve(__dirname, 'src/context/'),
+      '@styles': path.resolve(__dirname, 'src/styles/')
+    }
   },
   module: {
     rules: [

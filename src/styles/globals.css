@@ -4,8 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   font-size: 0.875rem !important;
-
   --spacing-8: 2rem;
+}
+
+@layer base {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    @apply w-full h-full overflow-x-hidden;
+  }
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

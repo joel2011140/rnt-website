@@ -16,6 +16,7 @@ module.exports = {
           DEFAULT: '#38BDF8', // Aqua RNT
           dark: '#0EA5E9', // Aqua RNT +
           darker: '#0369A1', // Aqua RNT ++
+          darkest: '#00619A', // Aqua RNT +++
         },
         douala: {
           light: '#FEF3C7', // Douala -
@@ -36,6 +37,7 @@ module.exports = {
           dark: '#6B7280', // Chumbo +
           darker: '#4B5563', // Chumbo ++
           darkest: '#374151', // Chumbo +++
+          "dark-min": "#46555C"
         },
       },
       fontFamily: {

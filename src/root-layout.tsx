@@ -7,7 +7,9 @@ export function RootLayout({ children }: { children: React.ReactNode }) {
     <LocaleProvider>
       <div className="w-full max-h-screen flex flex-col">
         <Header />
-        {children}
+        <div className="w-full h-full mt-12">
+          {children}
+        </div>
       </div>
     </LocaleProvider>
 

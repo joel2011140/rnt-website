@@ -20,7 +20,7 @@ export function HeaderNavigation() {
   ];
 
   return (
-    <nav className="w-full flex items-center justify-between p-4 h-full border relative">
+    <nav className="w-full flex items-center justify-between p-4 h-full  relative">
       {/* Logo */}
       <div className="flex-shrink-0">
         <MemoRntLogo />

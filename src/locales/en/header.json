@@ -1,5 +1,11 @@
 {
   "reservedArea": "Reserved Area",
   "careers": "Careers",
-  "contacts": "Contacts"
+  "contacts": "Contacts",
+  "main": "Home",
+  "about": "About RNT-EP",
+  "business-area": "Business Area",
+  "electricity-transport": "Electricity Transport Network",
+  "technology": "Technology & Innovation",
+  "press": "Press"
 }

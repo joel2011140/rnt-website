@@ -1,6 +1,11 @@
 {
-  "reservedArea": "Área reservada",
-  "careers": "Carreiras",
-  "contacts": "Contactos"
+  "reservedArea": "保留区",
+  "careers": "职业",
+  "contacts": "联系人",
+  "main": "首页",
+  "about": "关于 RNT-EP",
+  "business-area": "业务领域",
+  "electricity-transport": "电力输送网络",
+  "technology": "技术与创新",
+  "press": "新闻"
 }
-

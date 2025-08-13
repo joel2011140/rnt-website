@@ -1,4 +1,3 @@
-import React from "react";
 import { useHeaderDictionary } from "../../locales/hooks/use-header-dictionary";
 import { useLocale } from "../../context/locale/locale-context";
 import {

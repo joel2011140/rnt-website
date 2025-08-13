@@ -1,0 +1,39 @@
+{
+  "name": "rnt-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "@tailwindcss/postcss": "4.1.11",
+    "@tanstack/react-router": "1.131.8",
+    "@tanstack/react-router-devtools": "1.131.8",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@tanstack/router-plugin": "1.131.8",
+    "@types/node": "24.2.1",
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.7",
+    "autoprefixer": "10.4.21",
+    "css-loader": "7.1.2",
+    "html-webpack-plugin": "5.6.3",
+    "postcss": "8.5.6",
+    "postcss-loader": "8.1.1",
+    "style-loader": "4.0.0",
+    "tailwindcss": "4.1.11",
+    "ts-loader": "9.5.2",
+    "typescript": "5.9.2",
+    "webpack": "5.101.1",
+    "webpack-cli": "6.0.1",
+    "webpack-dev-server": "5.2.2"
+  }
+}

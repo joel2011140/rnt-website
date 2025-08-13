@@ -1,25 +1,28 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { useHeaderDictionary } from "../../locales/hooks/use-header-dictionary";
 import { X, Menu } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function MobileNavigation() {
-  const main = useHeaderDictionary("main") as string;
-  const about = useHeaderDictionary("about") as string;
-  const businessArea = useHeaderDictionary("business-area") as string;
-  const electricityTransport = useHeaderDictionary("electricity-transport") as string;
-  const technology = useHeaderDictionary("technology") as string;
-  const press = useHeaderDictionary("press") as string;
+  const labels = {
+    main: useHeaderDictionary("main") as string,
+    about: useHeaderDictionary("about") as string,
+    businessArea: useHeaderDictionary("business-area") as string,
+    electricityTransport: useHeaderDictionary("electricity-transport") as string,
+    technology: useHeaderDictionary("technology") as string,
+    press: useHeaderDictionary("press") as string,
+  };
 
   const [isOpen, setIsOpen] = useState(false);
 
   const options = [
-    { label: main, href: "/" },
-    { label: about, href: "/about" },
-    { label: businessArea, href: "/business-area" },
-    { label: electricityTransport, href: "/electricity-transport" },
-    { label: technology, href: "/technology" },
-    { label: press, href: "/press" },
+    { label: labels.main, to: "/" },
+    { label: labels.about, to: "/about" },
+    { label: labels.businessArea, to: "/business-area" },
+    { label: labels.electricityTransport, to: "/electricity-transport" },
+    { label: labels.technology, to: "/technology" },
+    { label: labels.press, to: "/press" },
   ];
 
   return (
@@ -61,13 +64,13 @@ export function MobileNavigation() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 * index, duration: 0.3 }}
                 >
-                  <a
-                    href={option.href}
+                  <Link
+                    to={option.to}
                     onClick={() => setIsOpen(false)}
                     className="hover:underline focus:outline-none focus:ring-2 focus:ring-white rounded-sm"
                   >
                     {option.label}
-                  </a>
+                  </Link>
                 </motion.li>
               ))}
             </ul>

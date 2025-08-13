@@ -1,6 +1,12 @@
 {
   "reservedArea": "Área reservada",
   "careers": "Carreiras",
-  "contacts": "Contactos"
+  "contacts": "Contactos", 
+  "main": "Ínicio",
+  "about": "A RNT-EP",
+  "business-area": "Área de Negócios",
+  "electricity-transport": "Rede de transporte de eletricidade",
+  "technology": "Tecnologia e inovação",
+  "press": "Imprensa"
 }
 

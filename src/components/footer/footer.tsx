@@ -25,7 +25,7 @@ export function Footer() {
     ));
 
   return (
-    <footer className="w-full bg-[#273038] flex flex-col p-6 md:p-8">
+    <footer className="w-full bg-[#273038]  flex flex-col p-6 md:p-8">
       {/* Top section */}
       <div className="w-full flex flex-col items-center md:flex-row md:items-center md:justify-around gap-8 md:gap-16 text-center md:text-left">
         <MemoWhiteRntLogo className="mb-4 md:mb-0" />

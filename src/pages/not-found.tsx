@@ -1,14 +1,15 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import { NotFoundIllustration } from "../assets/not-found-illustration";
+import { useHeaderDictionary } from "../locales/hooks/use-header-dictionary";
 
 export default function NotFoundPage() {
+  const notFoundTitle = useHeaderDictionary("not-found") as string
   return (
     <div className="flex flex-col items-center justify-center h-full p-4 text-center">
-      <h1 className="text-4xl font-bold mb-4">404</h1>
-      <p className="mb-4">Oops! The page you are looking for does not exist.</p>
-      <Link to="/" className="text-blue-500 hover:underline">
-        Go back home
-      </Link>
+      <div className="w-full h-full md:w-96 md:h-96">
+        <NotFoundIllustration />
+        <p className="text-chumbo-dark-min text-heading-20 md:text-heading-28">{notFoundTitle}</p>
+      </div>
     </div>
   );
 }

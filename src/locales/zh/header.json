@@ -1,11 +1,12 @@
 {
-  "reservedArea": "保留区",
-  "careers": "职业",
-  "contacts": "联系人",
+  "reservedArea": "保留区域",
+  "careers": "职业发展",
+  "contacts": "联系方式",
   "main": "首页",
-  "about": "关于 RNT-EP",
+  "about": "关于RNT-EP",
   "business-area": "业务领域",
   "electricity-transport": "电力输送网络",
-  "technology": "技术与创新",
-  "press": "新闻"
+  "technology": "科技与创新",
+  "press": "新闻",
+  "not-found": "页面未找到"
 }

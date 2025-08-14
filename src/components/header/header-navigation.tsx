@@ -28,12 +28,12 @@ export function HeaderNavigation() {
   return (
     <nav className="w-full flex items-center justify-between p-4 relative">
       {/* Logo */}
-      <div className="flex-shrink-0">
+      <div className="flex-shrink-0 ml-12">
         <MemoRntLogo />
       </div>
 
       {/* Desktop navigation */}
-      <ul className="hidden sm:flex absolute left-1/2 -translate-x-1/2 gap-6 text-sm lg:text-base">
+      <ul className="hidden sm:flex absolute left-1/2 -translate-x-1/3 gap-6 text-sm lg:text-base">
         {options.map((option) => (
           <li key={option.label}>
             <Link

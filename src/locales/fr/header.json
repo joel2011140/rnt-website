@@ -11,5 +11,11 @@
   "not-found": "Page non trouvée",
   "slide.1": "Programme de transformation du secteur électrique (PTSE)",
   "about-us": "À propos",
-  "about-us.description": "Le Réseau National d'Électricité (RNE) d'Angola joue un rôle stratégique dans le développement économique et social du pays, reliant les centres de production, de transmission et de distribution d'électricité aux consommateurs sur tout le territoire national. Cette infrastructure est essentielle pour stimuler l'industrialisation, améliorer l'accès à l'électricité et promouvoir la qualité de vie de la population."
+  "about-us.description": "Le Réseau National d'Électricité (RNE) d'Angola joue un rôle stratégique dans le développement économique et social du pays, reliant les centres de production, de transmission et de distribution d'électricité aux consommateurs sur l'ensemble du territoire national. Cette infrastructure est essentielle pour stimuler l'industrialisation, améliorer l'accès à l'électricité et promouvoir la qualité de vie de la population.",
+  "about-us-vision-title": "Vision",
+  "about-us-vision-description": "Consolider la gestion du Marché National de l'Électricité et renforcer la compétitivité de l'entreprise dans le contexte régional.",
+  "about-us-mission-title": "Mission",
+  "about-us-mission-description": "Transporter l'électricité avec des standards de qualité internationale, en assurant la satisfaction des clients et la durabilité économique, technique, sociale et environnementale.",
+  "about-us-values-title": "Valeurs",
+  "about-us-values-description": "Intégrité\nResponsabilité sociale\nValorisation des clients\nDéveloppement du capital humain"
 }

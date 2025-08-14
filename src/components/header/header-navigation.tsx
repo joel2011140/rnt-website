@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { useHeaderDictionary } from "../../locales/hooks/use-header-dictionary";
 import MemoRntLogo from "../../assets/rnt-logo";
@@ -33,7 +32,7 @@ export function HeaderNavigation() {
       </div>
 
       {/* Desktop navigation */}
-      <ul className="hidden sm:flex absolute left-1/2 -translate-x-1/3 gap-6 text-sm lg:text-base">
+      <ul className="hidden sm:flex absolute left-1/2 -translate-x-1/2 gap-6 text-sm lg:text-base">
         {options.map((option) => (
           <li key={option.label}>
             <Link

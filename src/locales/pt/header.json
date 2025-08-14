@@ -1,16 +1,21 @@
 {
   "reservedArea": "Área reservada",
   "careers": "Carreiras",
-  "contacts": "Contactos", 
+  "contacts": "Contactos",
   "main": "Ínicio",
   "about": "A RNT-EP",
   "business-area": "Área de Negócios",
   "electricity-transport": "Rede de transporte de eletricidade",
   "technology": "Tecnologia e inovação",
-  "press": "Imprensa", 
+  "press": "Imprensa",
   "not-found": "Página não encontrada",
   "slide.1": "Programa de Transformação do Sector Eléctrico (PTSE)",
   "about-us": "Sobre",
-  "about-us.description": "A Rede Nacional de Eletricidade (RNE) de Angola desempenha um papel estratégico no desenvolvimento económico e social do país, conectando centros de geração, transmissão e distribuição de energia elétrica a consumidores em todo o território nacional. Esta infraestrutura é essencial para impulsionar a industrialização, melhorar o acesso à eletricidade e promover a qualidade de vida da população."
+  "about-us.description": "A Rede Nacional de Eletricidade (RNE) de Angola desempenha um papel estratégico no desenvolvimento económico e social do país, conectando centros de geração, transmissão e distribuição de energia elétrica a consumidores em todo o território nacional. Esta infraestrutura é essencial para impulsionar a industrialização, melhorar o acesso à eletricidade e promover a qualidade de vida da população.",
+  "about-us-vision-title": "Visão",
+  "about-us-vision-description": "Consolidar a gestão do Mercado Elétrico Nacional e fortalecer a competitividade da empresa no cenário regional.",
+  "about-us-mission-title": "Missão",
+  "about-us-mission-description": "Transportar energia elétrica com qualidade internacional, assegurando a satisfação dos clientes e a sustentabilidade económica, técnica, social e ambiental.",
+  "about-us-values-title": "Valores",
+  "about-us-values-description": "Integridade\nResponsabilidade Social\nValorização dos Clientes\nDesenvolvimento do Capital Humano"
 }
-

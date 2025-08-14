@@ -1,13 +1,15 @@
 {
   "reservedArea": "保留区域",
-  "careers": "职业发展",
+  "careers": "职业机会",
   "contacts": "联系方式",
   "main": "首页",
-  "about": "关于RNT-EP",
+  "about": "关于 RNT-EP",
   "business-area": "业务领域",
   "electricity-transport": "电力输送网络",
-  "technology": "科技与创新",
-  "press": "新闻",
+  "technology": "技术与创新",
+  "press": "新闻媒体",
   "not-found": "页面未找到",
-  "slide.1": "电力行业转型计划（PTSE）"
+  "slide.1": "电力行业转型计划 (PTSE)",
+  "about-us": "关于我们",
+  "about-us.description": "安哥拉国家电力网络（RNE）在国家经济和社会发展中发挥着战略作用，将发电、输电和配电中心与全国消费者连接起来。这一基础设施对于推动工业化、改善电力获取以及提高人民生活质量至关重要。"
 }

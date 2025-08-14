@@ -3,23 +3,10 @@
   width: 100%;
   max-width: 90rem;
   margin: auto;
-  height: 34.3125rem;
   /* Desktop 549px */
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
-  .ptse-slider {
-    height: 100vh;
-    /* Full height */
-    width: 100%;
-    /* Full width */
-    padding: 0;
-    /* No padding */
-    margin: 0;
-    /* No margin */
-  }
-}
 
 .ptse-slider .swiper,
 .ptse-slider .swiper-wrapper,

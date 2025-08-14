@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useHeaderDictionary } from "../../../locales/hooks/use-header-dictionary";
-
+import { VerticalLineContent } from "../../../components/vertical-line-content";
 
 export function Slider() {
   const firstSlideTitle = useHeaderDictionary("slide.1");
@@ -28,7 +28,7 @@ export function Slider() {
   ];
 
   return (
-    <div className="ptse-slider mt-12 md:mt-0 rounded-none md:rounded-[1rem] overflow-hidden">
+    <div className="border ptse-slider mt-12 md:mt-0 rounded-none md-[34.3125rem] md:rounded-[1rem] overflow-hidden">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
@@ -51,38 +51,28 @@ export function Slider() {
                 }}
               />
               {/* Overlay and Content */}
-              <div className="relative z-10 bg-black/40 w-full h-full flex items-center">
-                <div className="px-6 md:px-24 flex items-center gap-4">
-                  {/* Vertical Line */}
-                  <div
-                    className="h-[6.6875rem] bg-[#996B00] w-[4px] rounded-full"
-
-                  />
-                  {/* Title with wrapping */}
-                  <span className="text-[#F3F3F3] text-heading-24 md:text-heading-44 font-normal break-words max-w-[45rem] leading-snug">
-                    {slide.title}
-                  </span>
-                </div>
-              </div>
+              <VerticalLineContent>
+                <span className="text-[#F3F3F3] text-heading-24 md:text-heading-44 font-normal break-words max-w-[45rem] leading-snug">
+                  {slide.title}
+                </span>
+              </VerticalLineContent>
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
 
-      {/* Navigation Controls */}
-      <div className="slider-controls flex justify-center items-center gap-4 mt-4">
+      {/* Navigation Controls - hidden on mobile */}
+      <div className="slider-controls hidden md:flex justify-center items-center gap-4 mt-4">
         <button className="nav-btn custom-prev bg-black/40 p-2 rounded-[0.25rem] hover:bg-black/60 transition">
           <ChevronLeft color="white" size={20} />
         </button>
 
-        <div className="custom-pagination" />
+        <div className="custom-pagination hidden md:block" />
 
         <button className="nav-btn custom-next bg-black/40 p-2 rounded-[0.25rem] hover:bg-black/60 transition">
           <ChevronRight size={20} color="white" />
         </button>
       </div>
-
-
     </div>
   );
 }

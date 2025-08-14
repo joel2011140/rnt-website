@@ -4,26 +4,29 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useHeaderDictionary } from "../../../locales/hooks/use-header-dictionary";
 
-const slides = [
-  {
-    title: "Programa de Transformação do Sector Eléctrico (PTSE)",
-    image:
-      "https://images.unsplash.com/photo-1581093588401-4fe18b6e1f7e?auto=format&fit=crop&w=1600&q=80",
-  },
-  {
-    title: "City at Night",
-    image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80",
-  },
-  {
-    title: "Solar Panels",
-    image:
-      "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?auto=format&fit=crop&w=1600&q=80",
-  },
-];
 
 export function Slider() {
+  const firstSlideTitle = useHeaderDictionary("slide.1");
+  const slides = [
+    {
+      title: firstSlideTitle as string,
+      image:
+        "https://images.unsplash.com/photo-1581093588401-4fe18b6e1f7e?auto=format&fit=crop&w=1600&q=80",
+    },
+    {
+      title: firstSlideTitle as string,
+      image:
+        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80",
+    },
+    {
+      title: firstSlideTitle as string,
+      image:
+        "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?auto=format&fit=crop&w=1600&q=80",
+    },
+  ];
+
   return (
     <div className="ptse-slider mt-12 md:mt-0 rounded-none md:rounded-[1rem] overflow-hidden">
       <Swiper
@@ -56,7 +59,7 @@ export function Slider() {
 
                   />
                   {/* Title with wrapping */}
-                  <span className="text-[#F3F3F3] text-heading-24 md:text-heading-44 font-normal break-words max-w-[40rem] leading-snug">
+                  <span className="text-[#F3F3F3] text-heading-24 md:text-heading-44 font-normal break-words max-w-[45rem] leading-snug">
                     {slide.title}
                   </span>
                 </div>
